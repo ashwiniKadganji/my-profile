@@ -11,6 +11,10 @@
         #nav{
             color: rgb(211, 75, 17);
             background-color: rgb(218, 240, 167);
+            
+        }
+        header{
+            margin-bottom: 20px;
         }
         a{
             word-spacing: 20px;
@@ -20,11 +24,14 @@
         }
         .upper{
             text-transform: uppercase;
+            margin-right: 30px;
+        }
+        a{
             text-decoration: none;
-
         }
         #font1,#font2,#font3,#font4{
             color: brown;
+            margin-right: 20px;
         }
         iframe{
             background-color: rgb(249, 242, 233);
@@ -33,38 +40,48 @@
             font-weight: bolder;
             font-size: larger;
         }
+        .headerContent{
+            margin-right: 30px;
+        }
+        .footerContent{
+            margin-right: 20px;
+        }
     </style>
 
 
 </head>
 <body>
     <div>
-        <p id="nav">
-        <i class="fa fa-user" aria-hidden="true"></i>&nbsp; <span><b>Ankita Kamble</b></span>&nbsp;&nbsp;&nbsp;
-        <i class="fa fa-phone" aria-hidden="true"></i>&nbsp;<span><b>8889907654</b></span>&nbsp;&nbsp;&nbsp;
-        <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;<span><b>ankitakamble@gmail.com</b></span>&nbsp;&nbsp;&nbsp;
-        <button type="submit"> <i class="fa fa-download" aria-hidden="true"></i>&nbsp;Download CV</button></p>
+        
+    <header id="nav">
+        <i class="fa fa-user" aria-hidden="true"></i> <span class="headerContent"><b>Ankita Kamble</b></span>
+        <i class="fa fa-phone" aria-hidden="true"></i><span class="headerContent"><b> 8889907654</b></span>
+        <i class="fa fa-envelope" aria-hidden="true"></i><span class="headerContent"><b> ankitakamble@gmail.com</b></span>
+        <button type="submit"> <i class="fa fa-download" aria-hidden="true"></i> Download CV</button>
+    </header>
          
-    
-       <span class="upper"><a href="home.html" target="profile">Home</a></span>&nbsp;&nbsp;
-       <span class="upper"><a href="techstack.html" target="profile">TECHstack</a></span>&nbsp;&nbsp;
-       <span class="upper"><a href="project.html" target="profile">Project</a></span>&nbsp;&nbsp;
-       <span class="upper"><a href="education.html" target="profile">Education</a></span>&nbsp;&nbsp;
+    <nav>
+       <span class="upper"><a href="home.html" target="profile">Home</a></span>
+       <span class="upper"><a href="techstack.html" target="profile">TECHstack</a></span>
+       <span class="upper"><a href="project.html" target="profile">Project</a></span>
+       <span class="upper"><a href="education.html" target="profile">Education</a></span>
        <span class="upper"><a href="aboutme.html" target="profile">Aboutme</a></span><br><br>
+    </nav>
 
        <iframe height="700px" width="900px" name="profile">
 
        </iframe><br><br>
 
 
-      
-    <strong>Follow Me</strong>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="http://www.instagram.com" ><i class="fa fa-2x fa-instagram" aria-hidden="true" id="font1"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="http://www.Facebook.com"><i class="fa fa-2x fa-facebook-official" aria-hidden="true" id="font2"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="http://www.twitter.com"  target="_blank"><i class="fa fa-2x fa-twitter-square" aria-hidden="true" id="font3"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="http://www.whatsapp.com"  target="_blank"><i class="fa fa-2x fa-whatsapp" aria-hidden="true" id="font4"></i></a>
+    <footer>
+        <strong  class="footerContent">Follow Me</strong>
+        <a href="http://www.instagram.com" ><i class="fa fa-2x fa-instagram" aria-hidden="true" id="font1"></i></a>
+        <a href="http://www.Facebook.com"><i class="fa fa-2x fa-facebook-official" aria-hidden="true" id="font2"></i></a>
+        <a href="http://www.twitter.com"  target="_blank"><i class="fa fa-2x fa-twitter-square" aria-hidden="true" id="font3"></i></a>
+        <a href="http://www.whatsapp.com"  target="_blank"><i class="fa fa-2x fa-whatsapp" aria-hidden="true" id="font4"></i></a>
 
-    <p id="copy">Copyright &copy;2023 Zoom Video Communications, Inc. All rights reserved. </p>
-    </div>
+        <p id="copy">Copyright &copy;2023 Zoom Video Communications, Inc. All rights reserved. </p>
+    </footer>    
+</div>
 </body>
 </html>
