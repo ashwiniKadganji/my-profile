@@ -22,14 +22,14 @@
             text-shadow: 30px;
             color: rgb(25, 36, 36);
         }
-        .upper{
+        /*.upper{
             text-transform: uppercase;
             margin-right: 30px;
-        }
+        } */
         a{
             text-decoration: none;
         }
-        #font1,#font2,#font3,#font4{
+        #font1,#font2,#font3,#font4,#font5{
             color: brown;
             margin-right: 20px;
         }
@@ -45,6 +45,17 @@
         }
         .footerContent{
             margin-right: 20px;
+            font-size: x-large;
+        }
+        .list li{
+            margin-right: 30px; /* or width : 20px; */ 
+            display: inline-block;
+            text-transform: uppercase;
+            font-size: large;
+        }
+        .foot li{
+            display: inline-block;
+            width: 50px;
         }
     </style>
 
@@ -61,11 +72,13 @@
     </header>
          
     <nav>
-       <span class="upper"><a href="home.html" target="profile">Home</a></span>
-       <span class="upper"><a href="techstack.html" target="profile">TECHstack</a></span>
-       <span class="upper"><a href="project.html" target="profile">Project</a></span>
-       <span class="upper"><a href="education.html" target="profile">Education</a></span>
-       <span class="upper"><a href="aboutme.html" target="profile">Aboutme</a></span><br><br>
+        <ul class="list">
+           <li><a href="home.html" target="profile">Home</a></li>
+           <li><a href="techstack.html" target="profile">TECHstack</a></li>
+           <li><a href="project.html" target="profile">Project</a></li>
+           <li><a href="education.html" target="profile">Education</a></li>
+           <li><a href="aboutme.html" target="profile">Aboutme</a></li>
+        </ul>
     </nav>
 
        <iframe height="700px" width="900px" name="profile">
@@ -74,12 +87,22 @@
 
 
     <footer>
-        <strong  class="footerContent">Follow Me</strong>
-        <a href="http://www.instagram.com" ><i class="fa fa-2x fa-instagram" aria-hidden="true" id="font1"></i></a>
-        <a href="http://www.Facebook.com"><i class="fa fa-2x fa-facebook-official" aria-hidden="true" id="font2"></i></a>
-        <a href="http://www.twitter.com"  target="_blank"><i class="fa fa-2x fa-twitter-square" aria-hidden="true" id="font3"></i></a>
-        <a href="http://www.whatsapp.com"  target="_blank"><i class="fa fa-2x fa-whatsapp" aria-hidden="true" id="font4"></i></a>
+        
+        <ol class="foot">
+            <strong  class="footerContent">Follow Me</strong>
 
+            <li><a href="http://www.github.com" target="_blank"><i class="fa  fa-2x fa-github" aria-hidden="true" id="font5"></i></a></li>
+
+            <li> <a href="http://www.instagram.com" target="_blank"><i class="fa fa-2x fa-instagram" aria-hidden="true" id="font1"></i></a></li>
+
+            <li> <a href="http://www.Facebook.com" target="_blank"><i class="fa fa-2x fa-facebook-official" aria-hidden="true" id="font2"></i></a></li>
+
+            <li><a href="http://www.twitter.com"  target="_blank"><i class="fa fa-2x fa-twitter-square" aria-hidden="true" id="font3"></i></a></li>
+
+            <li><a href="http://www.whatsapp.com"  target="_blank"><i class="fa fa-2x fa-whatsapp" aria-hidden="true" id="font4"></i></a>
+            </li>
+        </ol>
+        
         <p id="copy">Copyright &copy;2023 Zoom Video Communications, Inc. All rights reserved. </p>
     </footer>    
 </div>
