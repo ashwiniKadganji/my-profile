@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            background-color: rgb(238, 217, 241);
+        }
+        label,.bold{
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+        }
+        h2{
+            border: 2px solid rgb(157, 13, 13);
+            border-radius: 5px;
+            background-color: rgb(123, 4, 136);
+            color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        input,textarea,button{
+            border-radius: 5px;
+            border-color: rgb(152, 38, 4);
+            color: rgb(144, 5, 176);
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        fieldset{
+            background-color: rgb(195, 151, 237);
+        }
+        button{
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            background-color: blanchedalmond;
+        }
+    </style>
+  </head>
+  <body>
+    <fieldset>
+        <legend><h2>Registration Form</h2></legend>
+    <table>
+      <tbody>
+        <form>
+          <tr>
+            <td>
+              <label for="fName"> First Name </label>
+            </td>
+            <td>
+              <input id="fName" type="text" required placeholder="Only Capitals"/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label> Last Name </label>
+            </td>
+            <td>
+              <input type="text" placeholder="Only caps"/>
+            </td>
+          </tr>
+          <tr>
+            <td><label> Age </label></td>
+            <td><input type="number" required placeholder="Only age >= 18 allowed"  /></td>
+          </tr>
+          <tr>
+            <td><label> Name of your country </label></td>
+            <td><input type="text" value="India" readonly/></td>
+          </tr>
+          <tr>
+            <td> <label> Email </label>  </td>
+            <td> <input type="email"> </td>
+          </tr>
+          <tr>
+            <td> <label> Mobile </label> </td>
+            <td> <input type="tel"> </td>
+          </tr>
+          <tr>
+            <td> <label> Date Of Birth </label> </td>
+            <td> <input type="date"> </td>
+          </tr>
+          <tr>
+            <td class="bold"> Select Available for discussion </td>
+            <td> <input type="week"> </td>
+          </tr>
+          <tr>
+            <td class="bold"> Suitable Time </td>
+            <td> <input type="time"> </td>
+          </tr>
+          <tr>
+            <td> <label> Select Gender </label>  </td>
+            <td>
+                <input type="radio" name="gender"> <label> Male</label>
+                <input type="radio" name="gender"> <label> Female </label>
+                <input type="radio" name="gender"> <label> Other</label>
+            </td>
+          </tr>
+          <tr>
+            <td class="bold"> Technology Stack </td>
+            <td> 
+                <input type="checkbox"> <label> C </label>
+                <input type="checkbox"> <label> CPP </label>
+                <input type="checkbox"> <label> Java </label>
+                <input type="checkbox"> <label> Angular </label>
+                <input type="checkbox"> <label> React </label>
+                <input type="checkbox"> <label> DevOps </label>
+                <input type="checkbox"> <label> CI/CD Tools </label>
+            </td>
+          </tr>
+          <tr>
+            <td> <label> Address </label> </td>
+            <td>
+                <textarea></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td> <button type="submit"> Register</button>  </td>
+            <td> <button type="reset">Reset</button> </td>
+          </tr>
+        </form>
+      </tbody>
+    </table>
+    </fieldset>
+  </body>
+</html>
