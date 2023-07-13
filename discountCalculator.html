@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount calculator</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Gamja+Flower&family=Handlee&family=Noto+Sans&family=Poppins:wght@300&family=Signika+Negative&display=swap" rel="stylesheet">
+    <style>
+        fieldset{
+            height: 400px;
+            width: 500px;
+            box-shadow: 3px 3px rgb(172, 231, 226), -1em 0 .4em rgb(148, 196, 201);
+            margin-top: 100px;
+            margin-left: 350px;
+            margin-right: 200px;
+            margin-bottom: 100px;
+        }
+        label,h2{
+            color: cadetblue;
+            border-color: aquamarine;
+            font-family: 'Handlee', cursive;
+            font-weight: bolder;
+        }
+        button{
+            background-color: #4caf50;
+            border-radius: 10px;
+            padding-top: 5px;
+            padding-right: 251px;
+            padding-bottom: 5px;
+            padding-left: 200px;
+            
+            color: white;
+            font-family: 'Gamja Flower', cursive;
+            margin-bottom: 10px;
+        }
+        h2{
+            text-align: center;
+            font-family: 'Noto Sans', sans-serif;
+        }
+        input{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding-top: 3px;
+            padding-left: 4px;
+            width: 500px;
+            color: rgb(10, 148, 102);
+            font-weight: bold;
+            border-color: rgb(74, 169, 173);
+            border-radius: 4px;
+
+        }
+        p ,span{
+          color: cadetblue;
+          font-family: 'Handlee', cursive;
+          font-weight: bolder;
+        }
+        
+    </style>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <h2>DISCOUNT CALCULATOR</h2>
+        <P>Enter the Bill amount and discount in percentage</P>
+        <label class="space">Bill amount</label>
+        <br>
+        <input type="number">
+        <br>
+        <label class="space">Discount Percentage</label>
+        <br>
+        <input type="number">
+        <br>
+        <button type="submit" class="space">Calculator</button>
+        <br>
+        <span>Total Discount Amount</span>
+    </fieldset>
+    </form>
+</body>
+</html>
