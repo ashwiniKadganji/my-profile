@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Card</title>
+
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Rubik&display=swap" rel="stylesheet">
+  <style>
+    form{
+      margin: 200px;
+      margin-right: 200px;
+      border: 2px solid white ;
+      margin-right: 300px;
+      padding-bottom: 100px;
+      border-radius: 20px;
+      box-shadow: 10px 5px 5px rgb(79, 86, 60);
+      border-color: rgb(214, 211, 211);
+      width: 850px;
+      height: 400px;
+      background-color: rgb(241, 237, 244);
+    }
+    .image-section{
+      display: inline-block;
+      margin-top: 30px;
+      margin-left: 15px;
+    }
+    img{
+      box-shadow: 10px 5px 5px rgb(197, 168, 214);
+    }
+    .content-section{
+    display: inline-block;
+    
+    }
+    .points li{
+     padding: 10px;
+     font-size: 20px;
+     list-style-type: none;
+    }
+    
+    .points li::before{
+      content: '✍️';
+    }
+
+    .points li:nth-child(odd){
+      color: aliceblue;
+      background-color: rgb(86, 15, 153);
+    }
+
+    li{
+      font-family: 'Rubik', sans-serif;
+    }
+
+    h2{
+      font-family:'Times New Roman', Times, serif;
+      font-size: 40px;
+    }
+    .power{
+      margin-left: 150px;
+      margin-left: 170px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .soft{
+      margin-left: 130px;
+      font-size: 20px;
+      font-weight: bolder;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .points li:hover{
+      background-color: rgb(229, 175, 251);
+    }
+  </style>
+</head>
+<body>
+  <form>
+  
+    <div class="container">
+        <div class="image-section">
+        <img src="simple.jpg" alt="card image" height="250px" width="300px"><br>
+        <span class="power">Powered by</span><br>
+        <span class="soft"><i class="fa fa-connectdevelop" aria-hidden="true"></i> &nbsp;JSoftwareLabs</span>
+        </div>
+        <div class="content-section">
+            <h2>Compare Text Online</h2>
+            <ul class="points">
+                <li>Compare Text online Free
+                </li>
+                <li>Support large file comparison</li>
+                <li>Ignore order and namespaces</li>
+                <li>Side by side diff view</li>
+                <li>Get results in tabular format for quick reference</li>
+                <li>TEXT diff tool</li>
+                <li>REST API</li>
+            </ul>
+        </div>
+    </div>
+    
+    </form>
+</body>
+</html>

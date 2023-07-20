@@ -12,7 +12,7 @@
         fieldset{
             height: 400px;
             width: 500px;
-            box-shadow: 3px 3px rgb(172, 231, 226), -1em 0 .4em rgb(148, 196, 201);
+            box-shadow: 3px 3px rgb(172, 231, 226), -1em 0 .4em rgb(8, 214, 237);
             margin-top: 100px;
             margin-left: 350px;
             margin-right: 200px;
@@ -34,7 +34,10 @@
             
             color: white;
             font-family: 'Gamja Flower', cursive;
-            margin-bottom: 10px;
+            margin-bottom: 10px;  
+        }
+        button:hover{
+            color: burlywood;
         }
         h2{
             text-align: center;
@@ -57,6 +60,7 @@
           font-family: 'Handlee', cursive;
           font-weight: bolder;
         }
+
         
     </style>
 </head>
@@ -65,15 +69,15 @@
     <fieldset>
         <h2>DISCOUNT CALCULATOR</h2>
         <P>Enter the Bill amount and discount in percentage</P>
-        <label class="space">Bill amount</label>
+        <label>Bill amount</label>
         <br>
         <input type="number">
         <br>
-        <label class="space">Discount Percentage</label>
+        <label>Discount Percentage</label>
         <br>
         <input type="number">
         <br>
-        <button type="submit" class="space">Calculator</button>
+        <button type="submit">Calculator</button>
         <br>
         <span>Total Discount Amount</span>
     </fieldset>
